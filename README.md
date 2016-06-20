@@ -192,7 +192,7 @@ Et enfin, pour parcourir le tableau des curiosités, vous pouvez utiliser une bo
 ``` Ruby
 <% @curiosities.each do |curiosity| # Définit le début de la boucle %>
  <div> 
-   <%= @curiosity.name # affiche le nom pour chaque élément du tableau %>
+   <%= curiosity.name # affiche le nom pour chaque élément du tableau %>
  </div>
 <% end %> # Détermine la fin de la boucle
 ````
